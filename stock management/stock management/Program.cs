@@ -16,7 +16,11 @@ namespace stock_management
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new Dashboard());
+=======
+            Application.Run(new Login());
+>>>>>>> d60b13624f166c3615893da2e0594fe65b26f466
         }
     }
 }

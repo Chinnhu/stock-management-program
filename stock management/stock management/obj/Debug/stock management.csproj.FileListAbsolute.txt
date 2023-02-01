@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\stock-management-program\stock management\stock management\bin\Debug\stock management.exe.config
 D:\stock-management-program\stock management\stock management\bin\Debug\stock management.exe
 D:\stock-management-program\stock management\stock management\bin\Debug\stock management.pdb
@@ -10,3 +11,15 @@ D:\stock-management-program\stock management\stock management\obj\Debug\stock ma
 D:\stock-management-program\stock management\stock management\obj\Debug\stock management.pdb
 D:\stock-management-program\stock management\stock management\obj\Debug\stock_management.Dashboard.resources
 D:\stock-management-program\stock management\stock management\obj\Debug\stock_management.CustomButton.resources
+=======
+C:\Users\alexa\source\repos\stock management\stock management\bin\Debug\stock management.exe.config
+C:\Users\alexa\source\repos\stock management\stock management\bin\Debug\stock management.exe
+C:\Users\alexa\source\repos\stock management\stock management\bin\Debug\stock management.pdb
+C:\Users\alexa\source\repos\stock management\stock management\obj\Debug\stock management.csproj.AssemblyReference.cache
+C:\Users\alexa\source\repos\stock management\stock management\obj\Debug\stock_management.Login.resources
+C:\Users\alexa\source\repos\stock management\stock management\obj\Debug\stock_management.Properties.Resources.resources
+C:\Users\alexa\source\repos\stock management\stock management\obj\Debug\stock management.csproj.GenerateResource.cache
+C:\Users\alexa\source\repos\stock management\stock management\obj\Debug\stock management.csproj.CoreCompileInputs.cache
+C:\Users\alexa\source\repos\stock management\stock management\obj\Debug\stock management.exe
+C:\Users\alexa\source\repos\stock management\stock management\obj\Debug\stock management.pdb
+>>>>>>> d60b13624f166c3615893da2e0594fe65b26f466
