@@ -1,0 +1,11 @@
+D:\stock-management-program\stock management\stock management\bin\Debug\stock management.exe.config
+D:\stock-management-program\stock management\stock management\bin\Debug\stock management.exe
+D:\stock-management-program\stock management\stock management\bin\Debug\stock management.pdb
+D:\stock-management-program\stock management\stock management\obj\Debug\stock management.csproj.AssemblyReference.cache
+D:\stock-management-program\stock management\stock management\obj\Debug\stock management.csproj.SuggestedBindingRedirects.cache
+D:\stock-management-program\stock management\stock management\obj\Debug\stock_management.Form1.resources
+D:\stock-management-program\stock management\stock management\obj\Debug\stock_management.Properties.Resources.resources
+D:\stock-management-program\stock management\stock management\obj\Debug\stock management.csproj.GenerateResource.cache
+D:\stock-management-program\stock management\stock management\obj\Debug\stock management.csproj.CoreCompileInputs.cache
+D:\stock-management-program\stock management\stock management\obj\Debug\stock management.exe
+D:\stock-management-program\stock management\stock management\obj\Debug\stock management.pdb
