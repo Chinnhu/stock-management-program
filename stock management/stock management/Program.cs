@@ -16,7 +16,7 @@ namespace stock_management
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login());
+            Application.Run(new UserModuleForm());
 
             //uncomment to see Dashboard
             //Application.Run(new Dashboard());
