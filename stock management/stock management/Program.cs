@@ -16,10 +16,10 @@ namespace stock_management
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new UserModuleForm());
+            //Application.Run(new UserModuleForm());
 
             //uncomment to see Dashboard
-            //Application.Run(new Dashboard());
+            Application.Run(new Dashboard());
         }
     }
 }

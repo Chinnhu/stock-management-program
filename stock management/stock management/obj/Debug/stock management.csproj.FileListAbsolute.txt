@@ -45,8 +45,8 @@ D:\Fork\stock-management-program\stock management\stock management\obj\Debug\sto
 D:\Fork\stock-management-program\stock management\stock management\obj\Debug\stock_management.Login.resources
 D:\Fork\stock-management-program\stock management\stock management\obj\Debug\stock_management.Properties.Resources.resources
 D:\Fork\stock-management-program\stock management\stock management\obj\Debug\stock_management.UserForm.resources
-D:\Fork\stock-management-program\stock management\stock management\obj\Debug\stock_management.UserModuleForm.resources
 D:\Fork\stock-management-program\stock management\stock management\obj\Debug\stock management.csproj.GenerateResource.cache
 D:\Fork\stock-management-program\stock management\stock management\obj\Debug\stock management.csproj.CoreCompileInputs.cache
 D:\Fork\stock-management-program\stock management\stock management\obj\Debug\stock management.exe
 D:\Fork\stock-management-program\stock management\stock management\obj\Debug\stock management.pdb
+D:\Fork\stock-management-program\stock management\stock management\obj\Debug\stock_management.UserEditorForm.resources

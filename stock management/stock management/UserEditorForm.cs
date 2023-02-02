@@ -11,12 +11,12 @@ using System.Windows.Forms;
 
 namespace stock_management
 {
-    public partial class UserModuleForm : Form
+    public partial class UserEditorForm : Form
     {
         SqlConnection con = new SqlConnection(@"Data Source=localhost;Persist Security Info=True;User ID=sa;Password=Loktar00");
         SqlCommand cmd = new SqlCommand();
 
-        public UserModuleForm()
+        public UserEditorForm()
         {
             InitializeComponent();
         }
@@ -64,6 +64,33 @@ namespace stock_management
             textBoxFullName.Clear();
             textBoxPass.Clear();
             textBoxPhone.Clear();
+        }
+
+        private void updateBtn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (MessageBox.Show("Are you sure you want to update this user?", "Update Record", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    cmd = new SqlCommand($"UPDATE [Users] SET Username = @Username, FullName = @FullName, Password = @Password, Phone = @Phone WHERE [Id] LIKE '{textBoxId.Text}' ", con);
+                    cmd.Parameters.AddWithValue("@Username", textBoxUsername.Text);
+                    cmd.Parameters.AddWithValue("@FullName", textBoxFullName.Text);
+                    cmd.Parameters.AddWithValue("@Password", textBoxPass.Text);
+                    cmd.Parameters.AddWithValue("@Phone", textBoxPhone.Text);
+
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                    con.Close();
+
+                    MessageBox.Show("User has been successfully updated.");
+                    this.Dispose();
+                }
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

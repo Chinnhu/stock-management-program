@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserForm));
             this.panel1 = new System.Windows.Forms.Panel();
             this.dataGridUsers = new System.Windows.Forms.DataGridView();
@@ -39,16 +40,16 @@
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Edit = new System.Windows.Forms.DataGridViewImageColumn();
             this.Delete = new System.Windows.Forms.DataGridViewImageColumn();
-            this.usersBtn = new stock_management.CustomerButton();
+            this.addBtn = new stock_management.CustomerButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridUsers)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.usersBtn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.addBtn)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.RoyalBlue;
-            this.panel1.Controls.Add(this.usersBtn);
+            this.panel1.Controls.Add(this.addBtn);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(0, 434);
             this.panel1.Name = "panel1";
@@ -76,12 +77,21 @@
             this.Column5,
             this.Edit,
             this.Delete});
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Gold;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridUsers.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridUsers.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridUsers.EnableHeadersVisualStyles = false;
             this.dataGridUsers.Location = new System.Drawing.Point(0, 0);
             this.dataGridUsers.Name = "dataGridUsers";
             this.dataGridUsers.Size = new System.Drawing.Size(1108, 434);
             this.dataGridUsers.TabIndex = 1;
+            this.dataGridUsers.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridUsers_CellContentClick);
             // 
             // Column1
             // 
@@ -96,13 +106,16 @@
             this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Column2.HeaderText = "Username";
             this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
             this.Column2.Width = 90;
             // 
             // Column3
             // 
             this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column3.FillWeight = 80F;
             this.Column3.HeaderText = "Full Name";
             this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
             // 
             // Column4
             // 
@@ -117,6 +130,7 @@
             this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Column5.HeaderText = "Phone";
             this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
             this.Column5.Width = 68;
             // 
             // Edit
@@ -135,18 +149,20 @@
             this.Delete.Name = "Delete";
             this.Delete.Width = 5;
             // 
-            // usersBtn
+            // addBtn
             // 
-            this.usersBtn.BackColor = System.Drawing.Color.RoyalBlue;
-            this.usersBtn.HoverImage = ((System.Drawing.Image)(resources.GetObject("usersBtn.HoverImage")));
-            this.usersBtn.Image = ((System.Drawing.Image)(resources.GetObject("usersBtn.Image")));
-            this.usersBtn.Location = new System.Drawing.Point(1066, 3);
-            this.usersBtn.Name = "usersBtn";
-            this.usersBtn.NormalImage = ((System.Drawing.Image)(resources.GetObject("usersBtn.NormalImage")));
-            this.usersBtn.Size = new System.Drawing.Size(30, 29);
-            this.usersBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.usersBtn.TabIndex = 4;
-            this.usersBtn.TabStop = false;
+            this.addBtn.BackColor = System.Drawing.Color.RoyalBlue;
+            this.addBtn.Dock = System.Windows.Forms.DockStyle.Right;
+            this.addBtn.HoverImage = ((System.Drawing.Image)(resources.GetObject("addBtn.HoverImage")));
+            this.addBtn.Image = ((System.Drawing.Image)(resources.GetObject("addBtn.Image")));
+            this.addBtn.Location = new System.Drawing.Point(1078, 0);
+            this.addBtn.Name = "addBtn";
+            this.addBtn.NormalImage = ((System.Drawing.Image)(resources.GetObject("addBtn.NormalImage")));
+            this.addBtn.Size = new System.Drawing.Size(30, 35);
+            this.addBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.addBtn.TabIndex = 4;
+            this.addBtn.TabStop = false;
+            this.addBtn.Click += new System.EventHandler(this.addBtn_Click);
             // 
             // UserForm
             // 
@@ -162,7 +178,7 @@
             this.Text = "UserForm";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridUsers)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.usersBtn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.addBtn)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -170,7 +186,7 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.DataGridView dataGridUsers;
+        public CustomerButton addBtn;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
@@ -178,6 +194,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewImageColumn Edit;
         private System.Windows.Forms.DataGridViewImageColumn Delete;
-        private CustomerButton usersBtn;
+        public System.Windows.Forms.DataGridView dataGridUsers;
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace stock_management
 {
-    partial class UserModuleForm
+    partial class UserEditorForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -42,6 +42,8 @@
             this.saveBtn = new System.Windows.Forms.Button();
             this.clearBtn = new System.Windows.Forms.Button();
             this.updateBtn = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBoxId = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,6 +58,15 @@
             this.panel1.Size = new System.Drawing.Size(703, 42);
             this.panel1.TabIndex = 0;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(86, 45);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "label2";
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -66,15 +77,6 @@
             this.label1.Size = new System.Drawing.Size(114, 24);
             this.label1.TabIndex = 0;
             this.label1.Text = "User Editor";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(86, 45);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "label2";
             // 
             // label3
             // 
@@ -90,7 +92,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(34, 301);
+            this.label4.Location = new System.Drawing.Point(34, 298);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(59, 20);
             this.label4.TabIndex = 2;
@@ -100,7 +102,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(34, 244);
+            this.label5.Location = new System.Drawing.Point(34, 242);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(82, 20);
             this.label5.TabIndex = 3;
@@ -110,7 +112,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.Location = new System.Drawing.Point(34, 187);
+            this.label6.Location = new System.Drawing.Point(34, 186);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(84, 20);
             this.label6.TabIndex = 4;
@@ -128,23 +130,23 @@
             // textBoxPass
             // 
             this.textBoxPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxPass.Location = new System.Drawing.Point(156, 244);
+            this.textBoxPass.Location = new System.Drawing.Point(156, 242);
             this.textBoxPass.Name = "textBoxPass";
             this.textBoxPass.Size = new System.Drawing.Size(464, 22);
-            this.textBoxPass.TabIndex = 6;
+            this.textBoxPass.TabIndex = 7;
             // 
             // textBoxFullName
             // 
             this.textBoxFullName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxFullName.Location = new System.Drawing.Point(156, 185);
+            this.textBoxFullName.Location = new System.Drawing.Point(156, 186);
             this.textBoxFullName.Name = "textBoxFullName";
             this.textBoxFullName.Size = new System.Drawing.Size(464, 22);
-            this.textBoxFullName.TabIndex = 7;
+            this.textBoxFullName.TabIndex = 6;
             // 
             // textBoxPhone
             // 
             this.textBoxPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxPhone.Location = new System.Drawing.Point(156, 299);
+            this.textBoxPhone.Location = new System.Drawing.Point(156, 298);
             this.textBoxPhone.Name = "textBoxPhone";
             this.textBoxPhone.Size = new System.Drawing.Size(464, 22);
             this.textBoxPhone.TabIndex = 8;
@@ -186,12 +188,34 @@
             this.updateBtn.TabIndex = 11;
             this.updateBtn.Text = "Update";
             this.updateBtn.UseVisualStyleBackColor = false;
+            this.updateBtn.Click += new System.EventHandler(this.updateBtn_Click);
             // 
-            // UserModuleForm
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label7.Location = new System.Drawing.Point(36, 74);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(27, 20);
+            this.label7.TabIndex = 12;
+            this.label7.Text = "Id:";
+            // 
+            // textBoxId
+            // 
+            this.textBoxId.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxId.Location = new System.Drawing.Point(156, 74);
+            this.textBoxId.Name = "textBoxId";
+            this.textBoxId.ReadOnly = true;
+            this.textBoxId.Size = new System.Drawing.Size(54, 22);
+            this.textBoxId.TabIndex = 13;
+            // 
+            // UserEditorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(703, 516);
+            this.Controls.Add(this.textBoxId);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.updateBtn);
             this.Controls.Add(this.clearBtn);
             this.Controls.Add(this.saveBtn);
@@ -204,7 +228,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel1);
-            this.Name = "UserModuleForm";
+            this.Name = "UserEditorForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UserModuleForm";
             this.panel1.ResumeLayout(false);
@@ -223,12 +247,14 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBoxUsername;
-        private System.Windows.Forms.TextBox textBoxPass;
-        private System.Windows.Forms.TextBox textBoxFullName;
-        private System.Windows.Forms.TextBox textBoxPhone;
-        private System.Windows.Forms.Button saveBtn;
-        private System.Windows.Forms.Button clearBtn;
-        private System.Windows.Forms.Button updateBtn;
+        public System.Windows.Forms.Button saveBtn;
+        public System.Windows.Forms.Button clearBtn;
+        public System.Windows.Forms.Button updateBtn;
+        public System.Windows.Forms.TextBox textBoxUsername;
+        public System.Windows.Forms.TextBox textBoxPass;
+        public System.Windows.Forms.TextBox textBoxFullName;
+        public System.Windows.Forms.TextBox textBoxPhone;
+        private System.Windows.Forms.Label label7;
+        public System.Windows.Forms.TextBox textBoxId;
     }
 }

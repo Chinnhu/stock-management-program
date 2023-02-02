@@ -30,17 +30,17 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.productsBtn = new stock_management.CustomerButton();
+            this.categoriesBtn = new stock_management.CustomerButton();
+            this.usersBtn = new stock_management.CustomerButton();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuElement2 = new System.Windows.Forms.Panel();
             this.menuElement = new System.Windows.Forms.Panel();
             this.panelBot = new System.Windows.Forms.Panel();
             this.panelMain = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.productsBtn = new stock_management.CustomerButton();
-            this.categoriesBtn = new stock_management.CustomerButton();
-            this.usersBtn = new stock_management.CustomerButton();
             this.panelMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.productsBtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.categoriesBtn)).BeginInit();
@@ -66,60 +66,14 @@
             this.panelMenu.Size = new System.Drawing.Size(1108, 132);
             this.panelMenu.TabIndex = 0;
             // 
-            // menuElement2
+            // label4
             // 
-            this.menuElement2.BackColor = System.Drawing.Color.RoyalBlue;
-            this.menuElement2.Location = new System.Drawing.Point(0, 122);
-            this.menuElement2.Name = "menuElement2";
-            this.menuElement2.Size = new System.Drawing.Size(1108, 10);
-            this.menuElement2.TabIndex = 1;
-            // 
-            // menuElement
-            // 
-            this.menuElement.BackColor = System.Drawing.Color.RoyalBlue;
-            this.menuElement.Dock = System.Windows.Forms.DockStyle.Top;
-            this.menuElement.Location = new System.Drawing.Point(0, 0);
-            this.menuElement.Name = "menuElement";
-            this.menuElement.Size = new System.Drawing.Size(1108, 10);
-            this.menuElement.TabIndex = 0;
-            // 
-            // panelBot
-            // 
-            this.panelBot.BackColor = System.Drawing.Color.Gold;
-            this.panelBot.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelBot.Location = new System.Drawing.Point(0, 601);
-            this.panelBot.Name = "panelBot";
-            this.panelBot.Size = new System.Drawing.Size(1108, 31);
-            this.panelBot.TabIndex = 1;
-            // 
-            // panelMain
-            // 
-            this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelMain.Location = new System.Drawing.Point(0, 132);
-            this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(1108, 469);
-            this.panelMain.TabIndex = 2;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.GhostWhite;
-            this.label1.Font = new System.Drawing.Font("Microsoft PhagsPa", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label1.Location = new System.Drawing.Point(3, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(182, 42);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Dashboard";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(318, 87);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 16);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Users";
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(702, 85);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(73, 16);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Categories";
             // 
             // label3
             // 
@@ -130,14 +84,14 @@
             this.label3.TabIndex = 7;
             this.label3.Text = "Products";
             // 
-            // label4
+            // label2
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(702, 85);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(73, 16);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "Categories";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(318, 87);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(43, 16);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Users";
             // 
             // productsBtn
             // 
@@ -174,6 +128,53 @@
             this.usersBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.usersBtn.TabIndex = 3;
             this.usersBtn.TabStop = false;
+            this.usersBtn.Click += new System.EventHandler(this.usersBtn_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.GhostWhite;
+            this.label1.Font = new System.Drawing.Font("Microsoft PhagsPa", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label1.Location = new System.Drawing.Point(3, 13);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(182, 42);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Dashboard";
+            // 
+            // menuElement2
+            // 
+            this.menuElement2.BackColor = System.Drawing.Color.RoyalBlue;
+            this.menuElement2.Location = new System.Drawing.Point(0, 122);
+            this.menuElement2.Name = "menuElement2";
+            this.menuElement2.Size = new System.Drawing.Size(1108, 10);
+            this.menuElement2.TabIndex = 1;
+            // 
+            // menuElement
+            // 
+            this.menuElement.BackColor = System.Drawing.Color.RoyalBlue;
+            this.menuElement.Dock = System.Windows.Forms.DockStyle.Top;
+            this.menuElement.Location = new System.Drawing.Point(0, 0);
+            this.menuElement.Name = "menuElement";
+            this.menuElement.Size = new System.Drawing.Size(1108, 10);
+            this.menuElement.TabIndex = 0;
+            // 
+            // panelBot
+            // 
+            this.panelBot.BackColor = System.Drawing.Color.Gold;
+            this.panelBot.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelBot.Location = new System.Drawing.Point(0, 622);
+            this.panelBot.Name = "panelBot";
+            this.panelBot.Size = new System.Drawing.Size(1108, 10);
+            this.panelBot.TabIndex = 1;
+            // 
+            // panelMain
+            // 
+            this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelMain.Location = new System.Drawing.Point(0, 132);
+            this.panelMain.Name = "panelMain";
+            this.panelMain.Size = new System.Drawing.Size(1108, 490);
+            this.panelMain.TabIndex = 2;
             // 
             // Dashboard
             // 
@@ -184,6 +185,7 @@
             this.Controls.Add(this.panelBot);
             this.Controls.Add(this.panelMenu);
             this.Name = "Dashboard";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard";
             this.panelMenu.ResumeLayout(false);
             this.panelMenu.PerformLayout();

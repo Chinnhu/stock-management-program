@@ -72,11 +72,11 @@
     <Compile Include="UserForm.Designer.cs">
       <DependentUpon>UserForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserModuleForm.cs">
+    <Compile Include="UserEditorForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UserModuleForm.Designer.cs">
-      <DependentUpon>UserModuleForm.cs</DependentUpon>
+    <Compile Include="UserEditorForm.Designer.cs">
+      <DependentUpon>UserEditorForm.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="CustomerButton.resx">
       <DependentUpon>CustomerButton.cs</DependentUpon>
@@ -99,8 +99,8 @@
     <EmbeddedResource Include="UserForm.resx">
       <DependentUpon>UserForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserModuleForm.resx">
-      <DependentUpon>UserModuleForm.cs</DependentUpon>
+    <EmbeddedResource Include="UserEditorForm.resx">
+      <DependentUpon>UserEditorForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
