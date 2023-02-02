@@ -1,0 +1,37 @@
+C:\Users\alexa\source\repos\stock management\stock management\bin\Debug\stock management.exe.config
+C:\Users\alexa\source\repos\stock management\stock management\bin\Debug\stock management.exe
+C:\Users\alexa\source\repos\stock management\stock management\bin\Debug\stock management.pdb
+C:\Users\alexa\source\repos\stock management\stock management\obj\Debug\stock management.csproj.AssemblyReference.cache
+C:\Users\alexa\source\repos\stock management\stock management\obj\Debug\stock_management.Login.resources
+C:\Users\alexa\source\repos\stock management\stock management\obj\Debug\stock_management.Properties.Resources.resources
+C:\Users\alexa\source\repos\stock management\stock management\obj\Debug\stock management.csproj.GenerateResource.cache
+C:\Users\alexa\source\repos\stock management\stock management\obj\Debug\stock management.csproj.CoreCompileInputs.cache
+C:\Users\alexa\source\repos\stock management\stock management\obj\Debug\stock management.exe
+C:\Users\alexa\source\repos\stock management\stock management\obj\Debug\stock management.pdb
+C:\Users\Moni\Desktop\stock management\stock management\bin\Debug\stock management.exe.config
+C:\Users\Moni\Desktop\stock management\stock management\bin\Debug\stock management.exe
+C:\Users\Moni\Desktop\stock management\stock management\bin\Debug\stock management.pdb
+C:\Users\Moni\Desktop\stock management\stock management\obj\Debug\stock management.csproj.AssemblyReference.cache
+C:\Users\Moni\Desktop\stock management\stock management\obj\Debug\stock management.csproj.SuggestedBindingRedirects.cache
+C:\Users\Moni\Desktop\stock management\stock management\obj\Debug\stock_management.Login.resources
+C:\Users\Moni\Desktop\stock management\stock management\obj\Debug\stock_management.Properties.Resources.resources
+C:\Users\Moni\Desktop\stock management\stock management\obj\Debug\stock management.csproj.GenerateResource.cache
+C:\Users\Moni\Desktop\stock management\stock management\obj\Debug\stock management.csproj.CoreCompileInputs.cache
+C:\Users\Moni\Desktop\stock management\stock management\obj\Debug\stock management.exe
+C:\Users\Moni\Desktop\stock management\stock management\obj\Debug\stock management.pdb
+C:\Users\Moni\Desktop\stock management\stock management\obj\Debug\stock_management.CustomerButton.resources
+C:\Users\Moni\Desktop\stock management\stock management\obj\Debug\stock_management.Dashboard.resources
+C:\Users\Moni\Desktop\stock management\stock management\obj\Debug\stock_management.UserForm.resources
+E:\stock management\stock management\bin\Debug\stock management.exe.config
+E:\stock management\stock management\bin\Debug\stock management.exe
+E:\stock management\stock management\bin\Debug\stock management.pdb
+E:\stock management\stock management\obj\Debug\stock management.csproj.AssemblyReference.cache
+E:\stock management\stock management\obj\Debug\stock_management.CustomerButton.resources
+E:\stock management\stock management\obj\Debug\stock_management.Dashboard.resources
+E:\stock management\stock management\obj\Debug\stock_management.Login.resources
+E:\stock management\stock management\obj\Debug\stock_management.Properties.Resources.resources
+E:\stock management\stock management\obj\Debug\stock_management.UserForm.resources
+E:\stock management\stock management\obj\Debug\stock management.csproj.GenerateResource.cache
+E:\stock management\stock management\obj\Debug\stock management.csproj.CoreCompileInputs.cache
+E:\stock management\stock management\obj\Debug\stock management.exe
+E:\stock management\stock management\obj\Debug\stock management.pdb
