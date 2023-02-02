@@ -35,3 +35,18 @@ E:\stock management\stock management\obj\Debug\stock management.csproj.GenerateR
 E:\stock management\stock management\obj\Debug\stock management.csproj.CoreCompileInputs.cache
 E:\stock management\stock management\obj\Debug\stock management.exe
 E:\stock management\stock management\obj\Debug\stock management.pdb
+D:\Fork\stock-management-program\stock management\stock management\bin\Debug\stock management.exe.config
+D:\Fork\stock-management-program\stock management\stock management\bin\Debug\stock management.exe
+D:\Fork\stock-management-program\stock management\stock management\bin\Debug\stock management.pdb
+D:\Fork\stock-management-program\stock management\stock management\obj\Debug\stock management.csproj.AssemblyReference.cache
+D:\Fork\stock-management-program\stock management\stock management\obj\Debug\stock management.csproj.SuggestedBindingRedirects.cache
+D:\Fork\stock-management-program\stock management\stock management\obj\Debug\stock_management.CustomerButton.resources
+D:\Fork\stock-management-program\stock management\stock management\obj\Debug\stock_management.Dashboard.resources
+D:\Fork\stock-management-program\stock management\stock management\obj\Debug\stock_management.Login.resources
+D:\Fork\stock-management-program\stock management\stock management\obj\Debug\stock_management.Properties.Resources.resources
+D:\Fork\stock-management-program\stock management\stock management\obj\Debug\stock_management.UserForm.resources
+D:\Fork\stock-management-program\stock management\stock management\obj\Debug\stock_management.UserModuleForm.resources
+D:\Fork\stock-management-program\stock management\stock management\obj\Debug\stock management.csproj.GenerateResource.cache
+D:\Fork\stock-management-program\stock management\stock management\obj\Debug\stock management.csproj.CoreCompileInputs.cache
+D:\Fork\stock-management-program\stock management\stock management\obj\Debug\stock management.exe
+D:\Fork\stock-management-program\stock management\stock management\obj\Debug\stock management.pdb

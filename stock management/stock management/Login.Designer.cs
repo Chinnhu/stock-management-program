@@ -37,8 +37,8 @@ namespace stock_management
             this.btnLogin = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -56,9 +56,9 @@ namespace stock_management
             this.labelUser.AutoSize = true;
             this.labelUser.Location = new System.Drawing.Point(189, 224);
             this.labelUser.Name = "labelUser";
-            this.labelUser.Size = new System.Drawing.Size(61, 13);
+            this.labelUser.Size = new System.Drawing.Size(58, 13);
             this.labelUser.TabIndex = 1;
-            this.labelUser.Text = "User name:";
+            this.labelUser.Text = "Username:";
             this.labelUser.Click += new System.EventHandler(this.label1_Click);
             // 
             // labelPass
@@ -111,16 +111,6 @@ namespace stock_management
             this.panel1.Size = new System.Drawing.Size(463, 41);
             this.panel1.TabIndex = 6;
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.Yellow;
-            this.label3.Location = new System.Drawing.Point(194, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(51, 13);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Made by:";
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -130,6 +120,16 @@ namespace stock_management
             this.label4.Size = new System.Drawing.Size(189, 13);
             this.label4.TabIndex = 1;
             this.label4.Text = "Simona Bueva and Alexander Angelov";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.Yellow;
+            this.label3.Location = new System.Drawing.Point(194, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(51, 13);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Made by:";
             // 
             // checkBox1
             // 
