@@ -56,6 +56,8 @@ namespace stock_management
         private void clearBtn_Click(object sender, EventArgs e)
         {
             Clear();
+            saveBtn.Enabled = true;
+            updateBtn.Enabled = false;
         }
 
         private void Clear()
@@ -91,6 +93,11 @@ namespace stock_management
 
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

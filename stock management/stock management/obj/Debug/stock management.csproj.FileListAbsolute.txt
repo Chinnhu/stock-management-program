@@ -50,3 +50,5 @@ D:\Fork\stock-management-program\stock management\stock management\obj\Debug\sto
 D:\Fork\stock-management-program\stock management\stock management\obj\Debug\stock management.exe
 D:\Fork\stock-management-program\stock management\stock management\obj\Debug\stock management.pdb
 D:\Fork\stock-management-program\stock management\stock management\obj\Debug\stock_management.UserEditorForm.resources
+D:\Fork\stock-management-program\stock management\stock management\obj\Debug\stock_management.Categories.resources
+D:\Fork\stock-management-program\stock management\stock management\obj\Debug\stock_management.CategoryEditorForm.resources
