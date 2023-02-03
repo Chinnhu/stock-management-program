@@ -71,7 +71,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(702, 85);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(73, 16);
+            this.label4.Size = new System.Drawing.Size(74, 16);
             this.label4.TabIndex = 8;
             this.label4.Text = "Categories";
             // 
@@ -80,7 +80,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(509, 85);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 16);
+            this.label3.Size = new System.Drawing.Size(61, 16);
             this.label3.TabIndex = 7;
             this.label3.Text = "Products";
             // 
@@ -89,7 +89,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(318, 87);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 16);
+            this.label2.Size = new System.Drawing.Size(44, 16);
             this.label2.TabIndex = 6;
             this.label2.Text = "Users";
             // 
@@ -104,6 +104,7 @@
             this.productsBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.productsBtn.TabIndex = 5;
             this.productsBtn.TabStop = false;
+            this.productsBtn.Click += new System.EventHandler(this.productsBtn_Click);
             // 
             // categoriesBtn
             // 

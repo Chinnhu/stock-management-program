@@ -13,7 +13,7 @@ namespace stock_management
 {
     public partial class UserForm : Form
     {
-        SqlConnection con = new SqlConnection(@"Data Source=localhost;Persist Security Info=True;User ID=sa;Password=Loktar00");
+        SqlConnection con = new SqlConnection(@"Data Source=localhost;Initial Catalog=master;Integrated Security=True");
         SqlCommand cmd = new SqlCommand();
         SqlDataReader dataReader;
 

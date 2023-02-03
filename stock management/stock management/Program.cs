@@ -19,7 +19,8 @@ namespace stock_management
             //Application.Run(new UserModuleForm());
 
             //uncomment to see Dashboard
-            Application.Run(new Dashboard());
+            //Application.Run(new Dashboard());
+            Application.Run(new Login());
         }
     }
 }

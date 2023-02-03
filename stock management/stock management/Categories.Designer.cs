@@ -32,13 +32,13 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Categories));
             this.dataGridCategory = new System.Windows.Forms.DataGridView();
+            this.addBtn = new stock_management.CustomerButton();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.idCategory = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.categoryName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.categoryDiscription = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Edit = new System.Windows.Forms.DataGridViewImageColumn();
             this.Delete = new System.Windows.Forms.DataGridViewImageColumn();
-            this.addBtn = new stock_management.CustomerButton();
-            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridCategory)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.addBtn)).BeginInit();
             this.panel1.SuspendLayout();
@@ -79,44 +79,6 @@
             this.dataGridCategory.TabIndex = 2;
             this.dataGridCategory.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridCategory_CellContentClick);
             // 
-            // idCategory
-            // 
-            this.idCategory.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.idCategory.HeaderText = "Category Id";
-            this.idCategory.Name = "idCategory";
-            this.idCategory.ReadOnly = true;
-            this.idCategory.Width = 93;
-            // 
-            // categoryName
-            // 
-            this.categoryName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.categoryName.FillWeight = 80F;
-            this.categoryName.HeaderText = "Name";
-            this.categoryName.Name = "categoryName";
-            this.categoryName.ReadOnly = true;
-            // 
-            // categoryDiscription
-            // 
-            this.categoryDiscription.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.categoryDiscription.HeaderText = "Discription";
-            this.categoryDiscription.Name = "categoryDiscription";
-            // 
-            // Edit
-            // 
-            this.Edit.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.Edit.HeaderText = "";
-            this.Edit.Image = ((System.Drawing.Image)(resources.GetObject("Edit.Image")));
-            this.Edit.Name = "Edit";
-            this.Edit.Width = 5;
-            // 
-            // Delete
-            // 
-            this.Delete.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.Delete.HeaderText = "";
-            this.Delete.Image = ((System.Drawing.Image)(resources.GetObject("Delete.Image")));
-            this.Delete.Name = "Delete";
-            this.Delete.Width = 5;
-            // 
             // addBtn
             // 
             this.addBtn.BackColor = System.Drawing.Color.RoyalBlue;
@@ -141,6 +103,44 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1108, 35);
             this.panel1.TabIndex = 3;
+            // 
+            // idCategory
+            // 
+            this.idCategory.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.idCategory.HeaderText = "Category Id";
+            this.idCategory.Name = "idCategory";
+            this.idCategory.ReadOnly = true;
+            this.idCategory.Width = 93;
+            // 
+            // categoryName
+            // 
+            this.categoryName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.categoryName.FillWeight = 80F;
+            this.categoryName.HeaderText = "Name";
+            this.categoryName.Name = "categoryName";
+            this.categoryName.ReadOnly = true;
+            // 
+            // categoryDiscription
+            // 
+            this.categoryDiscription.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.categoryDiscription.HeaderText = "Description";
+            this.categoryDiscription.Name = "categoryDiscription";
+            // 
+            // Edit
+            // 
+            this.Edit.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.Edit.HeaderText = "";
+            this.Edit.Image = ((System.Drawing.Image)(resources.GetObject("Edit.Image")));
+            this.Edit.Name = "Edit";
+            this.Edit.Width = 5;
+            // 
+            // Delete
+            // 
+            this.Delete.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.Delete.HeaderText = "";
+            this.Delete.Image = ((System.Drawing.Image)(resources.GetObject("Delete.Image")));
+            this.Delete.Name = "Delete";
+            this.Delete.Width = 5;
             // 
             // Categories
             // 

@@ -52,3 +52,21 @@ D:\Fork\stock-management-program\stock management\stock management\obj\Debug\sto
 D:\Fork\stock-management-program\stock management\stock management\obj\Debug\stock_management.UserEditorForm.resources
 D:\Fork\stock-management-program\stock management\stock management\obj\Debug\stock_management.Categories.resources
 D:\Fork\stock-management-program\stock management\stock management\obj\Debug\stock_management.CategoryEditorForm.resources
+E:\vilica\stock-management-program\stock management\stock management\bin\Debug\stock management.exe.config
+E:\vilica\stock-management-program\stock management\stock management\bin\Debug\stock management.exe
+E:\vilica\stock-management-program\stock management\stock management\bin\Debug\stock management.pdb
+E:\vilica\stock-management-program\stock management\stock management\obj\Debug\stock management.csproj.AssemblyReference.cache
+E:\vilica\stock-management-program\stock management\stock management\obj\Debug\stock_management.Categories.resources
+E:\vilica\stock-management-program\stock management\stock management\obj\Debug\stock_management.CategoryEditorForm.resources
+E:\vilica\stock-management-program\stock management\stock management\obj\Debug\stock_management.CustomerButton.resources
+E:\vilica\stock-management-program\stock management\stock management\obj\Debug\stock_management.Dashboard.resources
+E:\vilica\stock-management-program\stock management\stock management\obj\Debug\stock_management.Login.resources
+E:\vilica\stock-management-program\stock management\stock management\obj\Debug\stock_management.Properties.Resources.resources
+E:\vilica\stock-management-program\stock management\stock management\obj\Debug\stock_management.UserForm.resources
+E:\vilica\stock-management-program\stock management\stock management\obj\Debug\stock_management.UserEditorForm.resources
+E:\vilica\stock-management-program\stock management\stock management\obj\Debug\stock management.csproj.GenerateResource.cache
+E:\vilica\stock-management-program\stock management\stock management\obj\Debug\stock management.csproj.CoreCompileInputs.cache
+E:\vilica\stock-management-program\stock management\stock management\obj\Debug\stock management.exe
+E:\vilica\stock-management-program\stock management\stock management\obj\Debug\stock management.pdb
+E:\vilica\stock-management-program\stock management\stock management\obj\Debug\stock_management.ProductsEditorForm.resources
+E:\vilica\stock-management-program\stock management\stock management\obj\Debug\stock_management.ProductsForm.resources

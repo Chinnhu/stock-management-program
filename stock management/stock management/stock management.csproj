@@ -76,6 +76,18 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="ProductsEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductsEditorForm.Designer.cs">
+      <DependentUpon>ProductsEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductsForm.Designer.cs">
+      <DependentUpon>ProductsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserForm.cs">
@@ -104,6 +116,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductsEditorForm.resx">
+      <DependentUpon>ProductsEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductsForm.resx">
+      <DependentUpon>ProductsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

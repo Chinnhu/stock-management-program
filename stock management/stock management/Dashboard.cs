@@ -47,5 +47,10 @@ namespace stock_management
         {
             OpenChildForm(new Categories());
         }
+
+        private void productsBtn_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ProductsForm());
+        }
     }
 }
